@@ -34,13 +34,17 @@ class Home extends StatelessWidget {
 
     return Scaffold(
       body: Center(
-        child: Container(
-          color: customColorScheme.background,
-          padding: const EdgeInsets.all(18),
-          child: Text(
-            'Custom Themer test',
-            style: TextStyle(color: customColorScheme.foreground),
-          ),
+        child: Column(
+          children: [
+            Container(
+              color: customColorScheme.background,
+              padding: const EdgeInsets.all(18),
+              child: Text(
+                'Custom Themer test',
+                style: TextStyle(color: customColorScheme.foreground),
+              ),
+            ),
+          ],
         ),
       ),
     );

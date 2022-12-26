@@ -14,7 +14,9 @@ dependencies:
     sdk: flutter
   source_gen: ^1.2.6
   custom_themer_annotations:
-    path: ../custom_themer_annotations
+    git:
+      url: https://github.com/yaitmou/custom_themer_annotations.git
+      ref: main
 
 dev_dependencies:
   build_runner: ^2.3.3

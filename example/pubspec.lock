@@ -158,9 +158,11 @@ packages:
   custom_themer_annotations:
     dependency: "direct main"
     description:
-      path: "../../custom_themer_annotations"
-      relative: true
-    source: path
+      path: "."
+      ref: main
+      resolved-ref: c6f1a0be8cd2975ade78b46f4891ee80a8fb6c28
+      url: "https://github.com/yaitmou/custom_themer_annotations.git"
+    source: git
     version: "0.0.1"
   dart_style:
     dependency: transitive

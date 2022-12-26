@@ -1,11 +1,7 @@
 // This is were we pull all elementary information about the source class. These
 // elements will then be passed to our generators to consume them for code
 // creation
-
-// ignore: depend_on_referenced_packages
-
 import 'package:analyzer/dart/element/visitor.dart';
-// ignore: depend_on_referenced_packages
 import 'package:analyzer/dart/element/element.dart';
 
 class ModelVisitor extends SimpleElementVisitor<void> {

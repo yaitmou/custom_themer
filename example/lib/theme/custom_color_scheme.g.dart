@@ -6,9 +6,6 @@ part of 'custom_color_scheme.dart';
 // CustomColorsGenerator
 // **************************************************************************
 
-/*
-
-*/
 @immutable
 class $CustomColorScheme extends ThemeExtension<$CustomColorScheme> {
   const $CustomColorScheme([

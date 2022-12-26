@@ -1,0 +1,8 @@
+builders:
+  generators:
+    import: 'package:custom_themer/custom_themer.dart'
+    builder_factories: ['generateCustomColors']
+    build_extensions: { '.dart': ['.g.dart'] }
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ['source_gen|combining_builder']
